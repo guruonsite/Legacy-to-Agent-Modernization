@@ -1,2 +1,12 @@
-# Legacy-to-Agent-Modernization
-A collection of architectural blueprints, Python scripts, and SOPs documenting the modernization of enterprise IT systems. This repository bridges the gap between 2008-era infrastructure and 2026 Agentic AI. It highlights workflows for automating HIPAA compliant data tasks and migrating manual IT operations into autonomous, AI-assisted processes.
+# NQ-Signal-Research-Node
+### Autonomous Evaluation of Institutional Futures Signals
+
+This repository serves as a research node for analyzing **NQ Futures** data using localized Agentic AI. It moves beyond simple technical analysis by utilizing LLMs as "Judge Agents" to validate institutional order flow.
+
+## 🔬 Research Focus
+- **Model Benchmarking:** Comparing sub-70B local models (GGUF/EXL2) against institutional signal logic.
+- **Hallucination Mitigation:** Implementing **PydanticAI** to force structured, verifiable JSON outputs for trading execution.
+- **Latency Analysis:** Measuring the "Tick-to-Thought" speed on an optimized RTX 3090 environment.
+
+## 📊 Evaluation Framework
+The node ingests Rithmic/Thinkorswim data logs and outputs a "Confidence Score" based on historical #BASHT alerts and institutional volume clusters.
